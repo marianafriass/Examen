@@ -9,7 +9,7 @@ def calcular_distancia(velocidadNaveI, tiempo):
     return velocidadNaveI * tiempo
 
 def jugar():
-    print("\n¡Estás en una nave espacial y un asteroide se aproxima rápidamente!")
+    print("\n¡Estás en una nave espacial y un asteroide se aproxima rápidamente")
     
     masaNave = random.randint(5000, 10000)  
     masaAsteroide = random.randint(1000, 5000) 
@@ -48,7 +48,7 @@ def jugar():
         if distancia_nave >= distancia_asteroide:
             print("Eso! La nave se movió lo suficiente para esquivar el asteroide")
         else:
-            print("No te desviaste lo suficiente. El asteroide golpeó la nave :(")
+            print("Pero no te desviaste lo suficiente. El asteroide golpeó la nave :(")
     
     else:
         print(f"\nTe quedaste quieto y el asteroide se movería {distancia_asteroide:.2f} metros.")
