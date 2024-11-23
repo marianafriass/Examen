@@ -6,4 +6,6 @@ Para ganar en este juego se debería de sacar la velocidad de la nave y del aste
 2- Desviarse: Cambiar el ángulo de la nave, lo que alterar su trayectoria pero no afecta tanto la velocidad.
 3- Quedarse quieto: No hacer nada y esperar el impacto.
 
+Nota: Al ser un programa que se realiza con numeros randoms existe la posibilidad que ninguna de las opciones sea suficiente para salvar la nave, ups.
+
 pd: el codigo lo puedes copiar y pegar en https://www.online-python.com/
