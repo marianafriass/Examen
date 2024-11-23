@@ -1,0 +1,39 @@
+#Pseudocodigo
+
+1. Entrada
+Datos iniciales de la nave y el asteroide:
+Masa de la nave
+Velocidad inicial de la nave
+Masa del asteroide
+Velocidad inicial del asteroide
+Tiempo hasta el impacto
+Acción que el jugador elige:
+Opción 1: Acelerar la nave
+Opción 2: Intentar desviarse
+Opción 3: Quedarse quieto
+
+2. Proceso
+Calcular las velocidades finales de la nave y el asteroide:
+
+Usar la fórmula de conservación de la cantidad de movimiento para calcular la velocidad final de la nave y del asteroide.
+Calcular la distancia que recorrería la nave y el asteroide:
+
+Multiplicar la velocidad de la nave por el tiempo para obtener la distancia recorrida por la nave.
+Multiplicar la velocidad del asteroide por el tiempo para obtener la distancia recorrida por el asteroide.
+Evaluar la acción elegida por el jugador:
+
+Si el jugador elige acelerar la nave, calcula si la nave se mueve lo suficiente para evitar el asteroide.
+Si el jugador elige desviarse, calcula si la nave se mueve lo suficiente para esquivar el asteroide.
+Si el jugador se queda quieto, compara las distancias recorridas para ver si el asteroide golpea la nave o pasa de largo.
+Mostrar el resultado de la acción tomada por el jugador:
+
+Si la nave logró escapar, mostrar mensaje de éxito.
+Si el asteroide golpeó la nave, mostrar mensaje de fracaso.
+Preguntar al jugador si desea jugar nuevamente.
+
+3. Salida
+Mostrar el resultado de la acción:
+Mensaje si la nave escapó o fue golpeada por el asteroide.
+Preguntar si el jugador quiere jugar otra vez:
+Si la respuesta es "sí", reiniciar el juego.
+Si la respuesta es "no", finalizar el juego.
